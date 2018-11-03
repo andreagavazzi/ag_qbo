@@ -43,6 +43,8 @@ rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00000, 0b11111, 0b111
 
 ### /cmd_nose
 Gestisce il led del naso
+takes a UInt16 standard message. Values above 3 are unused (0 : off, 1 : red, 2:green, 3: yellow)
+
 ### /cmd_vel
 Gestisce i 2 motori del robot
 ```
