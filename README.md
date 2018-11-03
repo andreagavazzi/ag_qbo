@@ -44,6 +44,10 @@ rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00000, 0b11111, 0b111
 ### /cmd_nose
 Gestisce il led del naso
 ### /cmd_vel
+Gestisce i 2 motori del robot
+```
+rostopic pub /cmd_vel geometry_msgs/Twist ‘{linear: {x:1.0}}’ -r 10
+```
 
 ___
 ![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=300)
