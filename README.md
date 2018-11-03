@@ -3,6 +3,9 @@ Programmi e applicazioni per il progetto "Qbo Reloaded" che modifica, anche a li
 
 ## qbo_arduqbo       
 Driver per l'attivazione delle funzionalità base.
+```
+roslaunch qbo_arduqbo qbo_arduqbo_default.launchh
+```
 Topics:
 ### /cmd_joints
 Gestisce il movimento (pan e tilt) della testa
