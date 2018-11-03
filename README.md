@@ -20,8 +20,8 @@ Gestisce i led della bocca
 | 0b | 0 | 0 | 0 | 0 | 0 |
 | 0b | 0 | 0 | 0 | 0 | 0 |
 
-| Area | Comando | Descrizione |
-| :---: | :---: | :---: |
+| AA | A | B | C | D | E |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 
 
