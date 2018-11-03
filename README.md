@@ -13,7 +13,7 @@ Gestisce il movimento (pan e tilt) della testa
 Gestisce il display sul retro del robot
 ### /cmd_mouth
 Gestisce i led della bocca  
-| Value | A | B | C | D | E |
+| Fisso | Col1| Col2 | Col3 | Col4 | Col5 |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0b | 0 | 0 | 0 | 0 | 0 |
 | 0b | 0 | 0 | 0 | 0 | 0 |
