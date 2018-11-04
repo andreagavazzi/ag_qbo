@@ -8,7 +8,7 @@ roslaunch qbo_arduqbo qbo_arduqbo_default.launchh
 ```
 Topics:
 ### /cmd_joints
-Gestisce il movimento (pan e tilt) della testa
+Gestisce il movimento (pan e tilt) della testa con un messaggio sensor_msgs/JointState  
 **Pan** (Position limit:)
 
 ```
