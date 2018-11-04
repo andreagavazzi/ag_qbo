@@ -9,6 +9,16 @@ roslaunch qbo_arduqbo qbo_arduqbo_default.launchh
 Topics:
 ### /cmd_joints
 Gestisce il movimento (pan e tilt) della testa
+
+```
+rostopic pub -1 /cmd_joints sensor_msgs/JointState '{header: auto, name: ['head_pan_joint'], position: [0], velocity: [], effort: []}'
+```
+Position limit:
+```
+rostopic pub -1 /cmd_joints sensor_msgs/JointState '{header: auto, name: ['head_tilt_joint'], position: [0], velocity: [], effort: []}'
+```
+Position limit: -0.659 ... 0.349
+  
 ### /cmd_lcd
 Gestisce il display sul retro del robot
 
