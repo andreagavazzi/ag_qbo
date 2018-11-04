@@ -66,4 +66,4 @@ rostopic pub /cmd_vel geometry_msgs/Twist ‘{linear: {x:1.0}}’ -r 10
 ```
 
 ___
-![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=300)
+![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=200)
