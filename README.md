@@ -33,7 +33,7 @@ n = blank/1/2/3/4 è il numero di riga
 
 
 ### /cmd_mouth
-Gestisce i led della bocca (un codice 0b... per ogni linea di led)
+Gestisce i led della bocca (0b + status dei 5 led per ogni riga)
 
 |  | A | B | C | D | E |
 | :---: | :---: | :---: | :---: | :---: | :---: |
