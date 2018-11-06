@@ -69,7 +69,7 @@ rostopic pub -1 /cmd_nose std_msgs/Uint16 2
 ### /cmd_vel
 Gestisce i 2 motori del robot
 ```
-rostopic pub /cmd_vel geometry_msgs/Twist ‘{linear: {x:1.0}}’ -r 10
+rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
 ```
 
 ___
