@@ -48,11 +48,15 @@ rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00000,0b00000,0b00000
 ```
 Kiss
 ```
-rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00100, 0b01110, 0b01110, 0b00100]
+rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00100,0b01110,0b01110,0b00100]
 ```
 Smile
 ```
-rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00000, 0b11111, 0b11111, 0b01111]
+rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b00000,0b11111,0b11111,0b01111]
+```
+Stupito
+```
+rostopic pub -1 /cmd_mouth std_msgs/ByteMultiArray "{}" [0b01110,0b10001,0b10001,0b01110]
 ```
 
 ### /cmd_nose
