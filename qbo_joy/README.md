@@ -1,3 +1,20 @@
+Driver ROS per un generico joystick
+
+ROS driver for a generic Linux joystick. The joy package contains joy_node, a node that interfaces a generic Linux joystick to ROS. This node publishes a "Joy" message, which contains the current state of each one of the joystick's buttons and axes.
+
+### Setup ###
+```
+sudo apt-get install ros-indigo-joy
+```
+```
+sudo chmod a+rw /dev/input/js0
+rosparam set joy_node/dev "/dev/input/jsX"
+```
+### Esecuzione ###
+```
+rosrun joy joy_node
+```
+
 ### /joy.buttons: ###
 | Index | Button name |
 | :---: | :--- |
@@ -13,7 +30,7 @@
 | 9 | Button stick left |
 | 10 | Button stick right |
 
-### joy.axis: ###
+### /joy.axis: ###
 | Index | Button name |
 | :---: | :--- |
 | 0 | Left/Right Axis stick left |
