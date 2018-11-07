@@ -1,5 +1,4 @@
-Table of index number of /joy.buttons:
-
+### /joy.buttons: ###
 | Index | Button name |
 | :---: | :--- |
 | 0 | A |
@@ -13,3 +12,15 @@ Table of index number of /joy.buttons:
 | 8 | power |
 | 9 | Button stick left |
 | 10 | Button stick right |
+
+### joy.axis: ###
+| Index | Button name |
+| :---: | :--- |
+| 0 | Left/Right Axis stick left |
+| 1 | Up/Down Axis stick left |
+| 2 | LT |
+| 3 | Left/Right Axis stick right |
+| 4 | Up/Down Axis stick right |
+| 5 | RT |
+| 6 | cross key left/right |
+| 7 | cross key up/down |
