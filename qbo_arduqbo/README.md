@@ -69,5 +69,11 @@ Gestisce i 2 motori del robot
 rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
 ```
 
+### /distance_sensors_state/floor_sensor ###
+in progress
+### /distance_sensors_state/front_left_srf10 ###
+in progress
+### /distance_sensors_state/front_right_srf10 ###
+in progress
 ___
 ![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=200)
