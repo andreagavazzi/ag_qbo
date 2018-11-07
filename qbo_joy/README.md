@@ -1,5 +1,5 @@
 # joy #
-http://wiki.ros.org/joy
+http://wiki.ros.org/joy  
 Driver ROS per un generico joystick connesso a Linux. Il package contiene joy_node, un nodo che si interfaccia al joystick pubblicando un messaggio "Joy" che contiene lo stato di ogni asse e bottone.
 Per verificare la connessione
 ```
