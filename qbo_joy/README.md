@@ -19,7 +19,7 @@ rosrun joy joy_node
 ```
 
 ### /joy.buttons: ###
-| Index | Modulo | Descrizione | Modulo | Descrizione |
+| Index | Modulo | Descrizione |  | Modulo | Descrizione |
 | :---: | :--- | :--- | --- | :--- | :--- |
 | 0 | joy.buttons | A |  | joy.axis | Left/Right Axis stick left |
 | 1 | joy.buttons | B |  | joy.axis | Up/Down Axis stick left |
