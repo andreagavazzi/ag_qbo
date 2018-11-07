@@ -22,7 +22,7 @@ rosrun joy joy_node
 
 ### Messagio /Joy: ###
 | **joy.buttons** | Descrizione |  | **joy.axis** | Descrizione |
-| :---: | :--- | --- | :--- | :--- |
+| :---: | :--- | --- | :---: | :--- |
 | 0 | A |  | 0 | Left/Right Axis stick left |
 | 1 | B |  | 1 | Up/Down Axis stick left |
 | 2 | X |  | 2 | LT |
