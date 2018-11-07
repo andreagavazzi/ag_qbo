@@ -19,18 +19,18 @@ rosrun joy joy_node
 ```
 
 ### Messagio /Joy: ###
-| Index | Modulo | Descrizione |  | Modulo | Descrizione |
+| joy.buttons | Descrizione |  | joy.axis | Descrizione |
 | :---: | :--- | :--- | --- | :--- | :--- |
-| 0 | joy.buttons | A |  | joy.axis | Left/Right Axis stick left |
-| 1 | joy.buttons | B |  | joy.axis | Up/Down Axis stick left |
-| 2 | joy.buttons | X |  | joy.axis | LT |
-| 3 | joy.buttons | Y |  | joy.axis | Left/Right Axis stick right |
-| 4 | joy.buttons | LB |  | joy.axis | Up/Down Axis stick right |
-| 5 | joy.buttons | RB |  | joy.axis | RT |
-| 6 | joy.buttons | back |  | joy.axis | cross key left/right |
-| 7 | joy.buttons | start |  | joy.axis | cross key up/down |
-| 8 | joy.buttons | power |
-| 9 | joy.buttons | Button stick left |
-| 10 | joy.buttons | Button stick right |
+| 0 | A |  | 0 | Left/Right Axis stick left |
+| 1 | B |  | 1 | Up/Down Axis stick left |
+| 2 | X |  | 2 | LT |
+| 3 | Y |  | 3 | Left/Right Axis stick right |
+| 4 | LB |  | 4 | Up/Down Axis stick right |
+| 5 | RB |  | 5 | RT |
+| 6 | back |  | 6 | cross key left/right |
+| 7 | start |  | 7 | cross key up/down |
+| 8 | power |
+| 9 | Button stick left |
+| 10 | Button stick right |
 
 
