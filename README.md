@@ -7,6 +7,6 @@ Driver base per l'attivazione delle schede, i motori delle ruote, i dynamixel de
 
 ## [qbo_joy](joy) ##
 Driver per l'attivazione di un joystick in ROS
-Richiede l'installazione di joy: http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
+Richiede l'installazione di joy: http://wiki.ros.org/joy
 ___
 ![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=200)
