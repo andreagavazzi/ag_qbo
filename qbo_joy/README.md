@@ -7,7 +7,7 @@ ls /dev/input/
 ```
 ### Setup ###
 ```
-sudo apt-get install ros-*version*joy
+sudo apt-get install ros-xxxxxxxxx-joy
 ```
 ```
 sudo chmod a+rw /dev/input/js0
