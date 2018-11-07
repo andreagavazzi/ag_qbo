@@ -19,6 +19,17 @@ rosparam set joy_node/dev "/dev/input/jsX"
 ```
 rosrun joy joy_node
 ```
+Il risultato di un rostopic echo sarà:
+
+>header: 
+>  seq: 9414
+>  stamp: 
+>    secs: 1325530130
+>    nsecs: 146351623
+>  frame_id: ''
+>axes: [-0.0038758506998419762, -0.0038453321903944016, -0.0, -0.999969482421875, 0.0, 0.0]
+>buttons: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  
+
 
 ### Messagio /Joy: ###
 | **joy.buttons** | Descrizione |  | **joy.axis** | Descrizione |
