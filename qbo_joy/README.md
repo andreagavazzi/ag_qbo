@@ -18,7 +18,7 @@ rosparam set joy_node/dev "/dev/input/jsX"
 rosrun joy joy_node
 ```
 
-### /joy.buttons: ###
+### Messagio /Joy: ###
 | Index | Modulo | Descrizione |  | Modulo | Descrizione |
 | :---: | :--- | :--- | --- | :--- | :--- |
 | 0 | joy.buttons | A |  | joy.axis | Left/Right Axis stick left |
@@ -29,18 +29,8 @@ rosrun joy joy_node
 | 5 | joy.buttons | RB |  | joy.axis | RT |
 | 6 | joy.buttons | back |  | joy.axis | cross key left/right |
 | 7 | joy.buttons | start |  | joy.axis | cross key up/down |
-| 8 | joy.buttons | power |  | joy.axis |
+| 8 | joy.buttons | power |
 | 9 | joy.buttons | Button stick left |
 | 10 | joy.buttons | Button stick right |
 
-### /joy.axis: ###
-| Index | Button name |
-| :---: | :--- |
-| 0 | Left/Right Axis stick left |
-| 1 | Up/Down Axis stick left |
-| 2 | LT |
-| 3 | Left/Right Axis stick right |
-| 4 | Up/Down Axis stick right |
-| 5 | RT |
-| 6 | cross key left/right |
-| 7 | cross key up/down |
+
