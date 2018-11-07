@@ -19,7 +19,7 @@ rosparam set joy_node/dev "/dev/input/jsX"
 ```
 rosrun joy joy_node
 ```
-il sensor_msgs/Joy[http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html] sarà simile a:
+il [sensor_msgs/Joy](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html) sarà simile a:
 
 >header:   
 >  seq: 9414  
