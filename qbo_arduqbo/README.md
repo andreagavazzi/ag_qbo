@@ -1,6 +1,6 @@
 # qbo_arduqbo       
 Driver per il riconoscimento dello schede e l'attivazione dei nodi corrispondenti alle lle funzionalità di base.
-### Avvio ###
+**Avvio***
 ```
 roslaunch qbo_arduqbo qbo_arduqbo_default.launchh
 ```
