@@ -1,7 +1,7 @@
 # joy #
 http://wiki.ros.org/joy  
-Driver ROS per un generico joystick connesso a Linux. Il package contiene joy_node, un nodo che si interfaccia al joystick pubblicando un messaggio "Joy" che contiene lo stato di ogni asse e bottone.
-Per verificare la connessione
+È il prerequisito per il funzionamento di qbo_joy. Si tratta di un driver ROS per un generico joystick connesso a Linux. Il package contiene joy_node, un nodo che si interfaccia al joystick pubblicando un messaggio "Joy" che contiene lo stato di ogni asse e bottone.
+Per verificare la connessione al SO ed individuare il suo numero di riferimento js:
 ```
 ls /dev/input/
 ```
