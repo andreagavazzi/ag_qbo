@@ -46,6 +46,14 @@ il [sensor_msgs/Joy](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html) sar√
 | 9 | Button stick left |
 | 10 | Button stick right |
 
+**Esempio**
+```python
+rospy.Subscriber('/joy', Joy, callback)
+def callback():
+    if data.axes[3] != 0:
+    ...
+```
+
 # qbo_joy #
 
 
