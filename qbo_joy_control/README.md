@@ -32,7 +32,7 @@ il [sensor_msgs/Joy](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html) sar√
 
 
 ### Messagio /Joy: ###
-| **joy.buttons** | Descrizione |  | **joy.axis** | Descrizione |
+| **data.buttons** | Descrizione |  | **data.axes** | Descrizione |
 | :---: | :--- | --- | :---: | :--- |
 | 0 | A |  | 0 | Left/Right Axis stick left |
 | 1 | B |  | 1 | Up/Down Axis stick left |
