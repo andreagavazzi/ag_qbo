@@ -49,7 +49,7 @@ il [sensor_msgs/Joy](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html) sar√
 **Esempio**
 ```python
 rospy.Subscriber('/joy', Joy, callback)
-def callback():
+def callback(data):
     if data.axes[3] != 0:
     ...
 ```
