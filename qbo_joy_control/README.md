@@ -56,6 +56,6 @@ def callback(data):
 
 # qbo_joy #
 
-![alt text](https://gavazzionline.files.wordpress.com/2018/11/174ec0f2-b3e7-4135-968d-528969b5513a.jpeg?w=400)
+![alt text](https://gavazzionline.files.wordpress.com/2018/11/174ec0f2-b3e7-4135-968d-528969b5513a.jpeg)
 ___
 ![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=200)
