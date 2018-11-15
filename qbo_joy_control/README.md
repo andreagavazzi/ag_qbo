@@ -62,6 +62,6 @@ Sottoscrive il nodo Joy e pubblica sul cmd_joints di arduqbo
 
 - [x] Stick destro: pan e tilt della testa  
 - [ ] Stick sinistro: movimento del robot  
-- [ ] Bottoni: espressioni bocca  
+- [ ] Bottoni: espressioni della bocca  
 ___
 ![alt text](https://gavazzionline.files.wordpress.com/2014/01/img_6916.jpg?w=200)
