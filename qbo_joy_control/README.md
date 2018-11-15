@@ -60,6 +60,7 @@ Sottoscrive il nodo Joy e pubblica sul cmd_joints di arduqbo
 
 ![alt text](https://gavazzionline.files.wordpress.com/2018/11/174ec0f2-b3e7-4135-968d-528969b5513a.jpeg?w=600)
 
+### Comandi implementati ###
 - [x] Stick destro: pan e tilt della testa  
 - [ ] Stick sinistro: movimento del robot  
 - [ ] Bottoni: espressioni della bocca  
