@@ -1,3 +1,3 @@
-# qbo_mimic#
+# qbo_mimic #
 
 Un set di espressioni pr qbo
