@@ -13,9 +13,19 @@ def say_no():
     pub_head = rospy.Publisher('/cmd_joints', JointState)
     servo_command = JointState()
     servo_command.name = ['head_pan_joint']
-    servo_command.position = [0.80]
+    servo_command.velocity = [2]
 
+    servo_command.position = [1]
     pub_head.publish(servo_command)
+    rospy.sleep(0.4)
+
+    servo_command.position = [-1]
+    pub_head.publish(servo_command)
+    rospy.sleep(0.8)
+
+    servo_command.position = [-1]
+    pub_head.publish(servo_command)
+    rospy.sleep(0.4)
 
 
 def smile():
@@ -39,11 +49,14 @@ def angry():
 
 
 def main():
-    rospy.init_node('qbo_mimic')
-    rate = rospy.Rate(10)
     say_no()
-    rate.sleep()
-    #rospy.spin()
 
-if __name__ == "__main__":
-    main()
+
+if __name__ == '__main__':
+    rospy.init_node('qbo_mimic')
+    rospy.sleep(0.5)
+    rospy.loginfo('Node qbo_mimic is now up')
+    while not rospy.is_shutdown():
+        main()
+
+rospy.spin()
