@@ -23,7 +23,7 @@ def say_no():
     pub_head.publish(servo_command)
     rospy.sleep(0.8)
 
-    servo_command.position = [-1]
+    servo_command.position = [0]
     pub_head.publish(servo_command)
     rospy.sleep(0.4)
 
