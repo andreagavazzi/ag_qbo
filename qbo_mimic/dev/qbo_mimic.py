@@ -8,7 +8,7 @@ from sensor_msgs.msg import JointState
 def say_yes():
     pass
 
-
+# test
 def say_no():
     pub_head = rospy.Publisher('/cmd_joints', JointState)
     servo_command = JointState()
