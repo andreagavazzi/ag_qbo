@@ -10,8 +10,13 @@ def say_yes():
 
 
 def say_no():
-    pub_head = rospy.Publisher('/cmd_joints', JointState)
+    pub_head = rospy.Publisher('/cmd_joints', JointState, queue_size=1)
+    rate = rospy.Rate(10)  # 10hz
+    rospy.sleep(1)
+
     servo_command = JointState()
+
+    servo_command.header.stamp = rospy.Time.now()
     servo_command.name = ['head_pan_joint']
     servo_command.velocity = [2]
 
